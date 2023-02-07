@@ -1,0 +1,37 @@
+AUTHORING INTERFACE SETUP GUIDE
+
+BACKEND
+Step1: Create the folder named AuthInterface
+# Step2: Clone the project using path
+Step3: Go to the folder using "cd AuthInterface"
+Step4: Setup Virtual Environment, Run the following commands in terminal
+    python3 -m venv env
+    source env/bin/activate
+Step5: Then install the requirements using
+    pip install -r requirements.txt
+Step6: open the function displayUSR in the file app.py, Change the path of mentioned USR_Generator directories with that of your device path
+Step7: run "python3 main.py" inorder to run the backend code
+Step8: hit the api "http://127.0.0.1:9999/" to enable the creation of databases.
+
+
+FRONTEND
+Step9: Let the above backend running and open the new terminal and run the following commands
+    "npm install"
+    "cd client"
+    "npm install react-router-dom"
+    "npm install axios"
+    "npm run start"
+
+**FINISH**
+# to create react app:
+# npx create-react-app client
+# client in 
+# package.json : "proxy":"http://127.0.0.1:9999"
+
+# run:
+# cd client
+# npm install react-router-dom
+# npm install axios
+# npm i react-flash-message
+# npm run start
+
